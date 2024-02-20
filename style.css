@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+}
+
+/*+++++++++++++++++++++Box1+++++++++++++++++++++*/
+
+.box1{
+    font-family: 'Montserrat';
+    box-sizing: border-box;
+    margin: 50px auto;
+    padding: 10px;
+    width: 30%;
+    border: 1px solid rgba(128, 128, 128, 0.573);
+    border-radius: 20px;
+}
+
+.box1-container{
+    position: relative;
+}
+
+.img{
+    width: 100%;
+    height: 80%;
+    border-radius: 20px;
+}
+
+.promoted{
+    position: absolute;
+    background-color: black;
+    opacity: 0.6;
+    border-radius: 5px;
+    color: white;
+    padding: 1px 4px;
+    top: 27px;
+    left: 27px;
+}
+
+.offer{
+    position: absolute;
+    background-color: rgb(58, 73, 236);
+    padding: 3px 6px;
+    border-radius: 1px;
+    color: white;
+    bottom: 35px;
+}
+
+.time{
+    position: absolute;
+    right: 25px;
+    bottom: 35px;
+    background-color: rgba(212, 210, 210, 0.815);
+    border-radius: 7px;
+    padding: 3px 5px;
+}
+
+.content{
+    padding-bottom: 10px;
+    border-bottom: 1px solid  rgba(128, 128, 128, 0.573);
+}
+
+.content h4{
+    font-weight: 600;
+}
+.footer p{
+    margin-top: 10px;
+    position: relative;
+    padding-left: 73px;
+    font-size: 15px;
+}
+
+.tag{
+    position: absolute;
+    background-color: rgb(31, 172, 149);
+    border-radius: 5px;
+    color: white;
+    z-index: 10;
+    padding-top:16px ;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-bottom: 2px;
+    font-size: 11px;
+}
+
+.safety{
+    position: absolute;
+    z-index: 11;
+    top: 2px;
+    background-color: rgba(230, 174, 69, 0.977);
+    color: black;
+    border-radius: 2px;
+    padding: 1px 2px;
+    font-size: 9.5px;
+    font-weight: 500;
+}
+
+/*+++++++++++++++++++++++++++Box2+++++++++++++++++++++++++++*/
+
+.box2{
+    font-family: 'Montserrat';
+    margin: 50px auto;
+    width: 30%;
+    border-radius: 20px;
+    position: relative;
+}
+
+.box2-container{
+    padding-top: 20px;
+    width: 100%;
+    position: absolute;
+    border-radius: 20px;
+    top: 20%;
+    left: 20px;
+    right: 20px;
+    color: white;
+}
+
+.box2-heading{
+    padding: 10px;
+    padding-left: 17px;
+    font-size: 25px;
+    
+}
+
+.box2-content{
+    padding-right: 13px;
+    padding-left: 10px;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+}
+
+.box2-btn{
+    padding: 10px 15px;
+    margin-top: 10px;
+    margin-left: 150px;
+    border-radius: 40px;
+    border: none;
+}
+
+.nature{
+    width: 100%;
+    border-radius: 20px;
+
+}
+
+/*+++++++++++++++++++++++++++Box3++++++++++++++++++++++++++++*/
+
+.box3{
+    width: 40%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-family: 'Montserrat';
+    margin: 50px auto;
+    border-radius: 2px;
+    background-image: url("https://source.unsplash.com/1600x1000/?darkfood");
+}
+
+.zomato{
+    color: white;
+    font-style: italic;
+    padding: 10px;
+    margin-left: 230px;
+}
+
+.box3-content{
+    color: white;
+    margin-left: 110px;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.search{
+    background-color: white;
+    position: relative;
+    margin: 20px auto;
+    width: 80%;
+    padding: 12px;
+}
+
+.location-icon{
+    position: absolute;
+    width: 3%;
+    top: 7px;
+    left: 16px;
+
+}
+.lucknow{
+    padding-left: 32px;
+    font-size: 13px;
+    top: 8px;
+}
+
+.bar{
+    position: absolute;
+    top: 7px;
+    left: 175px;
+
+}
+.search-icon{
+    position: absolute;
+    width: 3%;
+    top: 12px;
+    right: 300px;
+}
+
+
+.dropdown-icon{
+    position: absolute;
+    width: 2%;
+    top: 14px;
+    left: 150px;
+
+}
+
+.search-space{
+    position: absolute;
+    padding-left: 120px;
+    font-size: 13px;
+    top: 10px;
+    right: 42px;
+}
+
+/*++++++++++++++++++++++++++++++Box4++++++++++++++++++++++++++*/
+
+.box4{
+    margin: 50px auto;
+    width: 35%;
+    border: 1px solid rgba(128, 128, 128, 0.795);
+    border-radius: 20px;
+    position: relative;
+}
+
+.box4-img-container{
+    background-image: url("https://source.unsplash.com/1600x1000/?flower");
+    width: 100%;
+    height: 150px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.dp{
+    background-image: url("https://source.unsplash.com/1600x1000/?cartoon");
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 100;
+    top: 70px;
+    left: 35%;
+    border: 2px solid white;
+}
+
+.name{
+    margin-top: 30px;
+    padding-left: 190px;
+    padding-top: 50px;
+}
+
+.description{
+    margin: 10px 20px;
+    padding-left: 100px;
+    padding-bottom: 40px;
+}
